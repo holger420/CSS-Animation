@@ -47,6 +47,13 @@ body{
     animation-name: button;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 3s;
+    text-transform: uppercase;
+}
+.btn:hover {
+    transform: rotateY(3600deg);
+
 }
 
 @keyframes button{
