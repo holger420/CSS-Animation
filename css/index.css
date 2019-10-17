@@ -21,19 +21,18 @@ body {
     height: 95vh;
     background-image: linear-gradient(to right bottom, var(--light-green), var(--medium-green)), url(http://lorempixel.com/1920/1080/technics/);
     background-size: cover;
-    
     clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
 }
 
 .heading-primary {
     color: rgb(255, 255, 255);
     letter-spacing: 10px;
-    margin-left: 35%;
+    margin-left: 40%;
 }
 .btn{
     background-position: center;
     position: relative;
-    left: 25%;
+    left: 30%;
     display: inline-block;
     color: #fff;
     text-decoration: none;
@@ -46,7 +45,6 @@ body {
     animation-fill-mode: forwards;
     transition-property: transform;
     transition-duration: 1s;
-    text-transform: uppercase;
 }
 .btn:hover {
     transform: rotateY(360deg);
